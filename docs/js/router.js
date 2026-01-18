@@ -1,4 +1,4 @@
-﻿const routes = [
+const routes = [
   { path: /^\/?$/, module: "./pages/home.js" },
   { path: /^\/live$/, module: "./pages/live.js" },
   { path: /^\/upcoming$/, module: "./pages/upcoming.js" },

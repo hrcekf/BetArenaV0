@@ -1,4 +1,4 @@
-﻿import router from "./router.js";
+import router from "./router.js";
 import api from "./services/api.js";
 
 document.addEventListener("alpine:init", () => {

@@ -1,4 +1,4 @@
-﻿const CONFIG = window.__APP_CONFIG__ || {};
+const CONFIG = window.__APP_CONFIG__ || {};
 const BASE_ROOT = CONFIG.API_BASE ? CONFIG.API_BASE.replace(/\/$/, "") : "";
 const BASE = BASE_ROOT.endsWith("/api") || BASE_ROOT === "" ? BASE_ROOT : (BASE_ROOT + "/api");
 const TOKEN_KEY = "betarena_token";
